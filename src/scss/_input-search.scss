@@ -1,0 +1,21 @@
+.input-search {
+    display: block;
+    padding: 20px;
+    border: 0;
+    
+    @include breakpoint(sm) {
+        padding: 20px 0;
+    }
+    
+    input {
+        height: 30px;
+        width: 100%;
+        padding: 3px 5px;
+        margin: auto;
+        font-size: 14px;
+        
+        @include breakpoint(sm) {
+            width: 30%;
+        }
+    }
+}
