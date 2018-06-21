@@ -1,5 +1,4 @@
 import * as React from 'react';
-// import * as classnames from 'classnames';
 
 interface FeaturedProps {
     data: any;
